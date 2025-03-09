@@ -7,7 +7,7 @@
             <h1>Login</h1>
         </div>
         <div class="card-body" style="padding: 20px;">
-            <form action="/login" method="post" class="form-group">
+            <form action="/login_attempt" method="post" class="form-group">
                 @csrf
                 <div class="form-group mb-3">
                     <label for="email">Email</label>
