@@ -18,10 +18,10 @@
                     <a href="/" class="nav-link {{ request()->is('/') ? 'active' : '' }}">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/manage" class="nav-link {{ request()->is('manage') ? 'active' : '' }}">Register</a>
+                    <a href="/register" class="nav-link {{ request()->is('register') ? 'active' : '' }}">Register</a>
                 </li>
                 <li class="nav-item">
-                    <a href="/search" class="nav-link {{ request()->is('search') ? 'active' : '' }}">Manage</a>
+                    <a href="/manage" class="nav-link {{ request()->is('manage') ? 'active' : '' }}">Manage</a>
                 </li>
             </ul>
         </nav>
